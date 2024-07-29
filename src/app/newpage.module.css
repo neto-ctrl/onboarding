@@ -1,13 +1,14 @@
 .main{
     
     width: 600px;
-    background: black;
+    background: rgb(255, 255, 255);
     padding: 15px;
   }
 
 .div1{
     background-color:rgb(237, 240, 245);
     padding: 15px;
+    
     
 }
 
@@ -73,4 +74,5 @@
     justify-content: center;
     color: blue;
     gap: 3px ;
+    padding: 20px;
 }
