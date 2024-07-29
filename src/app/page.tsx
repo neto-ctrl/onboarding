@@ -1,3 +1,4 @@
+import { Bubblegum_Sans } from "next/font/google";
 import styles from "./newpage.module.css";
 
 export default function Home() {
@@ -18,15 +19,25 @@ export default function Home() {
     
               </div>
               <div className={styles.div6}>
-                <span><b>valor</b></span>
-                <span><b>data</b></span>
-
+                  <div>
+                    <span><b>Valor</b></span>
+                    <div><input type="number" /></div> 
+                  </div>
+                  <div  >
+                    <span><b>Data</b></span>
+                    <div>
+                      <button>{'<'}</button>
+                      <input type="month" name="" id="" />
+                      <button>{'>'}</button>
+                      
+                    </div>
+                  </div>
               </div>
 
               <div className={styles.div7}>
                 <div  className={styles.div8}>
-                  <span>economia mensal</span>
-                  <span>valor</span>
+                  <span><b>Economia mensal</b></span>
+                  <span>$2,416.00</span>
                 </div>
                 <div className={styles.div9}>
                   <span>voce esta planejando 5 meses de depositos para alcançar sua meta de $12,083.00 até julho de 2021</span>
