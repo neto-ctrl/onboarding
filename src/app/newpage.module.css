@@ -1,11 +1,68 @@
 .main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: aqua;
-    color: black;
-  
+ background: black;
+ padding: 15px;
+  }
+
+.div1{
+    background-color:rgb(237, 240, 245);
+    padding: 15px;
+    
 }
 
+.div2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    gap: 20px;
+    border-radius: 8px;
+}
+
+.div3{
+    display: flex;
+    gap: 5px;
+}
+.div4{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+
+.div5{
+    display: flex;
+    flex-direction: column;
+}
+
+.div6{
+    display: flex;
+    justify-content: space-between;
+}
+.div7{
+    border-radius: 8px;
+    padding: 3px;
+    background-color: rgb(237, 240, 245);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.div8{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div9{
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    gap: 3px ;
+}

@@ -2,34 +2,34 @@ import styles from "./newpage.module.css";
 
 export default function Home() {
   return (
-    <main style={{background:"black", padding:15}}>
-        <div style={{background:"grey", padding:15}} className="container">  
-          <span>Vamos compra uma casa</span> 
-             <div style={{display:"flex",flexDirection:"column", backgroundColor:"red", padding:20, gap:20 }}>
-              <div style={{display:"flex", gap:5}}>
-              <div style={{width:50, height:50, background:"blue"}} /> 
+      <main className={styles.main}>
+        <div className={styles.div1}>  
+          <span className={styles.titulo}>Vamos escolher <b>uma meta</b></span> 
+             <div className={styles.div2}>
+              <div className={styles.div3}>
+              <div className={styles.div4} /> 
               
-                <div style={{display:"flex", flexDirection:"column"}}>
+                <div className={styles.div5}>
                   
-                  <span> Comprar uma casa</span>
-                  <span> meta de economia</span>
+                  <span><b> Comprar uma casa</b></span>
+                  <span> Meta de economia</span>
                 </div>
 
     
               </div>
-              <div style={{display:"flex", justifyContent:"space-between"}}>
-                <span> valor</span>
-                <span>data</span>
+              <div className={styles.div6}>
+                <span><b>valor</b></span>
+                <span><b>data</b></span>
 
               </div>
 
-              <div style={{ display:"flex", flexDirection:"column", gap:20 }}>
-                <div  style={{display:"flex", justifyContent:"space-around"}}>
+              <div className={styles.div7}>
+                <div  className={styles.div8}>
                   <span>economia mensal</span>
-                  <span> valor</span>
+                  <span>valor</span>
                 </div>
-                <div style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                  <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cupiditate veniam dolorem modi odio impedit nesciunt qui aliquam minima doloremque. Aperiam quaerat quod sunt laudantium dolorum voluptates ipsum necessitatibus eveniet!</span>
+                <div className={styles.div9}>
+                  <span>voce esta planejando 5 meses de depositos para alcançar sua meta de $12,083.00 até julho de 2021</span>
                 </div>
 
               </div>
