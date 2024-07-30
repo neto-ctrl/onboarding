@@ -76,3 +76,18 @@
     gap: 3px ;
     padding: 20px;
 }
+
+.inputdedata{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; 
+    align-items: center;
+    padding: 1px;
+    
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    
+}

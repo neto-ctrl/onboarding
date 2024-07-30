@@ -25,10 +25,10 @@ export default function Home() {
                   </div>
                   <div  >
                     <span><b>Data</b></span>
-                    <div>
-                      <button>{'<'}</button>
-                      <input type="month" name="" id="" />
-                      <button>{'>'}</button>
+                    <div className={styles.inputdedata}>
+                      <div>{'<'}</div>
+                      <div className={styles.data}><div>julho</div><div>2021</div></div>
+                      <div>{'>'}</div>
                       
                     </div>
                   </div>
