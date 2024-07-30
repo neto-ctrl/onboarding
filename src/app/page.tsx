@@ -21,7 +21,7 @@ export default function Home() {
               <div className={styles.div6}>
                   <div>
                     <span><b>Valor</b></span>
-                    <div><input type="number" /></div> 
+                    <div><span>120000</span></div> 
                   </div>
                   <div  >
                     <span><b>Data</b></span>
