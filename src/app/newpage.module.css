@@ -1,12 +1,12 @@
 .main{
     
     width: 600px;
-    background: rgb(255, 255, 255);
+    background: rgb(27, 13, 65);
     padding: 15px;
   }
 
 .div1{
-    background-color:rgb(237, 240, 245);
+    background-color:rgb(152, 181, 231);
     padding: 15px;
     
     
@@ -47,7 +47,7 @@
 .div7{
     border-radius: 8px;
     padding: 1px;
-    background-color: rgb(237, 240, 245);
+    background-color: rgb(115, 137, 175);
     display: flex;
     flex-direction: column;
     gap: 10px;

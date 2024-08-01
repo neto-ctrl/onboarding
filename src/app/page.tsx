@@ -1,5 +1,8 @@
 import { Bubblegum_Sans } from "next/font/google";
+
 import styles from "./newpage.module.css";
+
+import Header from "./components/Header";
 
 export default function Home() {
   return (
@@ -8,14 +11,7 @@ export default function Home() {
           <span className={styles.titulo}>Vamos escolher <b>uma meta</b></span> 
              <div className={styles.div2}>
               <div className={styles.div3}>
-              <div className={styles.div4} /> 
-              
-                <div className={styles.div5}>
-                  
-                  <span><b> Comprar uma casa</b></span>
-                  <span> Meta de economia</span>
-                </div>
-
+              <Header title="" subtitle="" />
     
               </div>
               <div className={styles.div6}>
