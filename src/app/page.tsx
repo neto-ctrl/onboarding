@@ -1,5 +1,5 @@
 import { Bubblegum_Sans } from "next/font/google";
-
+import Valordameta from "./components/Data";
 import styles from "./newpage.module.css";
 
 import Header from "./components/Header";
@@ -20,13 +20,7 @@ export default function Home() {
                     <div><span>120000</span></div> 
                   </div>
                   <div  >
-                    <span><b>Data</b></span>
-                    <div className={styles.inputdedata}>
-                      <div>{'<'}</div>
-                      <div className={styles.data}><div>julho</div><div>2021</div></div>
-                      <div>{'>'}</div>
-                      
-                    </div>
+                   <Valordameta/>
                   </div>
               </div>
 
