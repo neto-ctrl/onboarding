@@ -11,7 +11,7 @@ export default function Home() {
           <span className={styles.titulo}>Vamos escolher <b>uma meta</b></span> 
              <div className={styles.div2}>
               <div className={styles.div3}>
-              <Header title="" subtitle="" />
+              <Header title="Buy a House" subtitle="Goal" />
     
               </div>
               <div className={styles.div6}>
@@ -20,7 +20,7 @@ export default function Home() {
                     <div><span>120000</span></div> 
                   </div>
                   <div  >
-                   <Valordameta/>
+                   <Valordameta initialPeriod="2024-08-05" minDate="2024-06-05"/>
                   </div>
               </div>
 

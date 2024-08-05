@@ -18,7 +18,7 @@ function getIcon2(showIcon: boolean) {
     let icon = null
 
     if (showIcon) {
-        icon = <div style={{ display:"flex", flexDirection:"column", height: "50px",width:"50px" ,backgroundColor:"green" }} /> 
+        icon = <div  style={{ display:"flex", flexDirection:"column", height: "50px",width:"50px" ,backgroundColor:"green" }} /> 
     }
     
     return icon
