@@ -92,3 +92,9 @@
     flex-direction: column;
     
 }
+
+.inputValueGoal{
+    display: flex;
+    flex-direction: column;
+    
+}

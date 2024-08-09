@@ -7,7 +7,7 @@ interface Props {
 function getIcon(showIcon: boolean) {
     if (showIcon) {
         return (
-            <div style={{ display:"flex", flexDirection:"column", height: "50px",width:"50px" ,backgroundColor:"green" }} /> 
+            <div style={{ display:"flex", flexDirection:"column", height: "50px",width:"50px" ,backgroundColor:"green" }} />
         )
     }
 
